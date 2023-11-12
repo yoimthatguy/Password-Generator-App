@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap');
+
+body {
+    margin: 0;
+    background: #273549;
+}
+.wrapper {
+    margin: 0 2em;
+}
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Karla;
+    font-weight: 800;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+h1 span {
+    color: #4ADF86;
+}
+p {
+    color: #D5D4D8;
+    font-size: 19px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 28px;
+    word-wrap: break-word;
+}
+button {
+    background-color: #10B981;
+    color: white;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 24px;
+    word-wrap: break-word;
+    border: 6px #10B981 solid;
+    border-radius: 6px;
+    cursor: pointer;
+}
+hr {
+    border: 1px solid #2F3E53;
+    color: red;
+    margin: 2em 0;
+}
+.pass-fill {
+    display: inline-block;
+    background-color: #2F3E53;
+    height: 32px;
+    padding: 0 30px;
+    margin: 0 .75em 0 0;
+    color: #55F991;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 500;
+    line-height: 32px;
+    word-wrap: break-word;
+    border: 6px #2F3E53 solid;
+    border-radius: 6px;
+    text-align: center
+}
